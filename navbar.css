@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Dancing+Script:wght@400;500;600;700&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(255,255,255);
+
+}
+
+#navbar{
+    width:100%;
+    height:auto;
+
+}
+
+#nav_1{
+    height:30px;
+    border-bottom:1px solid rgb(214, 214, 214);
+    justify-items: center;
+    align-items: center;
+    
+}
+
+#shipsTo_div{
+    height:30px;
+    width:150px;
+    margin-left: 20px;
+    display: flex;
+    overflow: hidden;
+
+}
+
+#shipsTo_div p:nth-child(1){
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+#shipsTo_div p:nth-child(3){
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#shipsTo_div img{
+    height:35px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: -3px;
+}
+
+#nav_2{
+    height:60px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    display: flex;
+}
+
+#overstock_logo{
+    height:30px;
+    margin-top: 0px;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+
+}
+
+#overstock_logo p {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    letter-spacing: -2px;
+    font-weight: 500;
+}
+
+#overstock_logo img{
+    height:35px;
+    margin-top: 13px;
+}
+
+#search_div{
+    width:1000px;
+    display:flex;
+}
+
+#search_inp{
+    height:20px;
+    justify-self: center;
+    margin-top: 15px;
+    margin-left:50px;
+    width:85%;
+    padding: 5px;
+    border:1px solid rgb(198, 198, 199);
+}
+
+#search_inp::placeholder{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+
+}
+
+#search_div div{
+    height:33px;
+    margin-top: 15px;
+    width:4%;
+    text-align: center;
+    background-color: red;
+}
+
+#deals_div{
+    width:50px;
+    margin-left:50px;
+    text-align: center;
+
+}
+
+#account_div{
+    width:50px;
+    margin-left:5px;
+    text-align: center;
+}
+#lists_div{
+    width:50px;
+    margin-left:5px;
+    text-align: center;
+
+}
+#cart_div{
+    width:50px;
+    margin-left:5px;
+    text-align: center;
+
+}
+
+.fa-magnifying-glass{
+    margin-top: 10px;
+    color:whitesmoke;
+
+}
+
+.fa-ideal{
+    font-size: 27px;
+    margin-top: 15px;
+}
+
+.fa-user{
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.fa-heart{
+    font-size: 27px;
+    margin-top: 15px;
+}
+
+.fa-cart-shopping{
+    font-size: 27px;
+    margin-top: 15px;
+}
+
+#nav_text{
+    margin-top:1px;
+    font-size: 13px;
+}
+
+
+#nav_3{
+    height:40px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    display: flex;
+
+}
+
+#dropDiv_1{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+#dropDiv_2{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+#dropDiv_3{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+#dropDiv_4{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+#dropDiv_5{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+#dropDiv_6{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right:5px;
+    margin-left: 30px;
+}
+#dropDiv_7{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+#dropDiv_8{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+}
+#dropDiv_9{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 50px;
+}
+#dropDiv_10{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 50px;
+}
+#dropDiv_11{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 50px;
+}
+#dropDiv_12{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 150px;
+}
+#dropDiv_13{
+    height: 100%;
+    width:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 30px;
+    color:rgb(206,60,70);
+}
+
+#nav_3 > div:hover{
+    border-bottom:1px solid black;
+}
+
+#nav_3 > div > p {
+    margin-top:10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
