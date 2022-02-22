@@ -9,9 +9,13 @@ function header() {
         </div>
     </nav>
     <nav id="nav_2">
-        <div id="overstock_logo">
+    <div id="overstock_logo">
             <img src="https://media.glassdoor.com/sqll/14907/overstock-com-squarelogo-1529535998697.png" alt="">
+            <a href="index.html">
+            
             <p>OVERSTOCK</p>
+             </a>
+
         </div>
         <div id="search_div">
             <input type="text" id="search_inp" placeholder="Search">
@@ -39,42 +43,62 @@ function header() {
     <nav id="nav_3">
 
         <div id="dropDiv_1">
+        <a href="furniture.html">
             <p>Furniture</p>
+            </a>
 
         </div>
         <div id="dropDiv_2">
+            <a href="rugs.html">
+
             <p>Rugs</p>
+            </a>
 
         </div>
         <div id="dropDiv_3">
+        <a href="decor.html">
             <p>Decor</p>
-
+            </a>
         </div>
         <div id="dropDiv_4">
+        <a href="bed and bath.html">
             <p>Bed & Bath</p>
-
+            </a>
         </div>
         <div id="dropDiv_5">
+        <a href="home improvement.html">
             <p>Home Improve</p>
+            </a>
         </div>
         <div id="dropDiv_6">
+        <a href="kitchen.html">
             <p>Kitchen</p>
+            </a>
         </div>
         <div id="dropDiv_7">
+        <a href="outdoor.html">
             <p>Outdoor</p>
-
+            </a>
         </div>
         <div id="dropDiv_8">
-            <p>Jwelry</p>
+        <a href="jewelry.html">
+            <p>Jewelry</p>
+            </a>
         </div>
         <div id="dropDiv_9">
+        <a href="lighting.html">
             <p>Lighting</p>
+            </a>
         </div>
         <div id="dropDiv_10">
+        <a href="kids and baby.html">
             <p>Kids & Baby</p>
+            </a>
         </div>
         <div id="dropDiv_11">
+        <a href="more.html">
             <p>More</p>
+            </a>
         </div>
         <div id="dropDiv_12">
             <p>Ideas</p>
@@ -1014,6 +1038,7 @@ function header() {
         </div>
     </div>
 </div>
+<div id="header_space"></div>
 `;
 }
 

@@ -1,13 +1,14 @@
 #footer_div{
     width:100%;
     height:auto;
+    margin-top: 50px;
     color: white;
     margin-bottom: 0ch;
 }
 
 #upperFooter_div{
     background-color: rgb(84,86,88);
-    height:250px;
+    height:300px;
     display: flex;
     border-bottom: 1px solid rgb(138, 137, 137);
 }
@@ -15,7 +16,7 @@
 #upperFooter_div > div{
     width:200px;
     margin-left: 150px;
-    margin-top: 30px;
+    margin-top: 90px;
     font-size: 13px;
     letter-spacing: -0.3px;
 

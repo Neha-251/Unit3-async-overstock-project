@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Dancing+Script:wght@400;500;600;700&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+
+#furniture_headDiv{
+    margin-top: 00px;
+    height: 70px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#furniture_headDiv > p {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+
+
+#picshow_1{
+    height:650px;
+    width:90%;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+#picshow_1 > div:nth-child(1) {
+    width:25%;
+
+}
+
+#picshow_2{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+#picshow_2 > div{
+    display: flex;
+    gap:10px;
+}
+
+#picshow_2 > div > div{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(49, 49, 49);
+}
+
