@@ -1,1 +1,215 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Dancing+Script:wght@400;500;600;700&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+#gap_for_navbar{
+    height:150px;
+}
+
+#picShow_1{
+    height:700px;
+    width:95%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 100px;
+    display:flex;
+    gap: 10px;
+    
+    background-image: url("https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_BBL_PopCat_2.jpg?imwidth=400&impolicy=medium"),
+     url("https://ak1.ostkcdn.com/img/mxc/03232020-gnp-rugs-PopCat_8.jpg?imwidth=400&impolicy=medium"),
+     url("https://ak1.ostkcdn.com/img/mxc/02172022-HP-A1-V2-1400_INTL.svg"),
+     url("https://ak1.ostkcdn.com/images/products/is/images/direct/df0088b2496c9341fb0be362382182b5dc35f808/SAFAVIEH-Lighting-Finnley-28-inch-Crackle-Glass-LED-Table-Lamp.jpg?imwidth=480&impolicy=medium"),
+     url("https://ak1.ostkcdn.com/images/products/is/images/direct/0b874858355bbb5946a0cdcc5d30c22f8633a541/Porch-%26-Den-Cammy-Blue-Trellis-Swoop-Accent-Chair.jpg?imwidth=480&impolicy=medium");
+
+     background-repeat: no-repeat;
+     background-size: 250px 600px;
+     
+     background-position-x: 0px, 270px, 610px, 930px, 1200px ;
+
+    /* opacity: 20%; */
+
+    }
+
+#picShow_1 > img {
+    height:600px;
+    width:230px;
+    margin-top: 100px;
+}
+
+#picShow_1 > img:nth-child(3) {
+    width:500px;
+    zoom: 120%;
+    margin-top: 100px;
+}
+
+
+#picshow_2{
+    display:flex;
+    width:93%;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: 4%;
+}
+
+#picshow_2 > div > img{
+    width:220px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+
+}
+
+#picshow_2 > div > p{
+    text-align: center;
+    width: 190px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+
+#picshow_3{
+    display:flex;
+    margin-left: 3%;
+    width:93%;
+}
+
+#picshow_3 > img{
+    width:300px;
+    height:500px;
+    margin-right: 20px;
+    background-color: whitesmoke;
+}
+
+#picshow_3 > img:nth-child(1){
+    width:480px;
+}
+
+
+#picshow_4{
+    width:95%;
+    margin-top: 80px;
+    margin-left: 5%;
+
+}
+
+#picshow_4 > p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color:rgb(50,51,55);
+}
+
+#picshow_4 > div > div > p{
+    text-align: center;
+    font-weight: 550;
+    font-size: 20px;
+    color:rgb(102, 101, 101);
+}
+
+#picshow_4 > div{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height:auto;
+    width:160px;
+    grid-gap:20px;
+}
+
+#picshow_4 > div > div > img{
+    width:210px;
+}
+
+#picshow_5{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#picshow_5 > p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color:rgb(50,51,55);
+}
+
+
+#picshow_5 > div{
+    display:flex;
+    gap:10px;
+    margin-left: 5%;
+    
+}
+
+#picshow_5 > div > div{
+    background-color: rgb(245,245,245);
+    width:330px;
+    height:460px;
+}
+
+#picshow_5 > div > div > img{
+    width:330px;
+}
+
+#picshow_5 > div > div > p:nth-child(2){
+    font-size: 23px;
+    font-weight: 700;
+    color:rgb(50,51,55);
+    width:250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align:left;
+}
+
+#picshow_5 > div > div > p:nth-child(3){
+    font-size: 15px;
+    font-weight: 550;
+    color:rgb(64, 64, 65);
+    width:280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align:left;
+    
+}
+
+#picshow_6{
+    display: flex;
+    gap:0px;
+    width:90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picshow_6 > img:nth-child(1){
+    width:600px;
+    zoom: 100%;
+}
+
+#picshow_6 > img:nth-child(2){
+    margin-left: -550px;
+    margin-top: -130px;
+}
+
+
+
+#picshow_6 > button{
+    height:50px;
+    width: 200px;
+    background-color: rgb(1,152,165);
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: -400px;
+    margin-top: 400px;
+
+}
+
+
+
+
+
