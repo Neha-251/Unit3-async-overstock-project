@@ -112,65 +112,65 @@ function header() {
 
 <div id="drop_1">
     <div>
-        <p id="brand_p">Living Room furniture</p>
-        <p>Sofas & Couches</p>
-        <p>Sectionals</p>
-        <p>Benches</p>
-        <p>Ottomans & Poufs</p>
-        <p>Accent Chairs</p>
-        <p>Recliners</p>
-        <p>Coffee & Accent Tables</p>
-        <p>TV Stands</p>
+        <p id="brand_p" class="livingRoom">Living Room furniture</p>
+        <p class="sofa">Sofas & Couches</p>
+        <p class="sectional">Sectionals</p>
+        <p class="bench">Benches</p>
+        <p class="ottoman">Ottomans & Poufs</p>
+        <p class="accentChair">Accent Chairs</p>
+        <p class="Recliner">Recliners</p>
+        <p class="accent tables">Coffee & Accent Tables</p>
+        <p class="tvStand">TV Stands</p>
 
-        <p id="brand_p">Patio & Outdoor furniture</p>
-        <p>Patio Furniture Sets</p>
-        <p>Sofas, Chairs & Sectionals</p>
-        <p>Dining Sets</p>
-        <p>Coffee & Side Tables</p>
-        <p>Chaise Lounghes</p>
-        <p>Adirondack Chairs</p>
-        <p>Hammocks & Swings</p>
+        <p id="brand_p" class="patio">Patio & Outdoor furniture</p>
+        <p class="patio">Patio Furniture Sets</p>
+        <p class="chair">Sofas, Chairs & Sectionals</p>
+        <p class="diningSet">Dining Sets</p>
+        <p class="sideTable">Coffee & Side Tables</p>
+        <p class="chaise lounghes">Chaise Lounghes</p>
+        <p class="chair">Adirondack Chairs</p>
+        <p class="swing">Hammocks & Swings</p>
     </div>
     <div>
-        <p id="brand_p">Bedroom Furniture</p>
-        <p>Beds</p>
-        <p>Bedroom Sets</p>
-        <p>Headboards</p>
-        <p>Bed Frames</p>
-        <p>Dressers & Chests</p>
-        <p>Nightstands</p>
-        <p>Armoires & Wardrobes</p>
-        <p>Mattress</p>
-        <p>Kids Beds</p>
+        <p id="brand_p" class="bedroom">Bedroom Furniture</p>
+        <p class="bed">Beds</p>
+        <p class="bedroom set">Bedroom Sets</p>
+        <p class="headboard">Headboards</p>
+        <p class="bedFrame">Bed Frames</p>
+        <p class="dressers">Dressers & Chests</p>
+        <p class="nightstand">Nightstands</p>
+        <p class="armoir">Armoires & Wardrobes</p>
+        <p class="mattress">Mattress</p>
+        <p class="kidsBed">Kids Beds</p>
 
         <p id="brand_p">Office Furniture</p>
-        <p>Desks</p>
-        <p>Office Chairs</p>
-        <p>Small Space Desks</p>
-        <p>Office Shelves & storage</p>
-        <p>File Cabinets</p>
-        <p>Office & Conference Tables</p>
+        <p class="desk">Desks</p>
+        <p class="office chair">Office Chairs</p>
+        <p class="smallSpaceDesk">Small Space Desks</p>
+        <p class="officeShelves">Office Shelves & storage</p>
+        <p class="fileCabinet">File Cabinets</p>
+        <p class="officeTable">Office & Conference Tables</p>
     </div>
     <div>
-        <p id="brand_p">Dining Kitchen & Bar</p>
-        <p>Kitchen & Dining Sets</p>
-        <p>Kitchen & Dining Chairs</p>
-        <p>Kitchen & Dining Tables</p>
-        <p>Counter & Bar Stools</p>
-        <p>Bar Tables</p>
-        <p>Buffets & Sideboards</p>
-        <p>Home Bars</p>
-        <p>Kitchen Islands & carts</p>
-        <p>Kitchen Furniture</p>
+        <p id="brand_p" class="bar">Dining Kitchen & Bar</p>
+        <p class="diningSet">Kitchen & Dining Sets</p>
+        <p class="diningChair">Kitchen & Dining Chairs</p>
+        <p class="dining">Kitchen & Dining Tables</p>
+        <p class="barStool">Counter & Bar Stools</p>
+        <p class="barTable">Bar Tables</p>
+        <p class="buffet">Buffets & Sideboards</p>
+        <p class="homeBar">Home Bars</p>
+        <p class="kitchenIsland">Kitchen Islands & carts</p>
+        <p class="kitchen">Kitchen Furniture</p>
 
         <p id="brand_p">More</p>
-        <p>Kitchen & Dining Tables</p>
-        <p>Counter & Bar Stools</p>
-        <p>Bar Tables</p>
-        <p>Buffets & Sideboards</p>
-        <p>Home Bars</p>
-        <p>Kitchen Islands & carts</p>
-        <p>Kitchen Furniture</p>
+        <p class="diningTable">Kitchen & Dining Tables</p>
+        <p class="barStool">Counter & Bar Stools</p>
+        <p class="barTable">Bar Tables</p>
+        <p class="buffets">Buffets & Sideboards</p>
+        <p class="bar">Home Bars</p>
+        <p class="kitchenIsland">Kitchen Islands & carts</p>
+        <p class="kitchen">Kitchen Furniture</p>
 
     </div>
     <div>

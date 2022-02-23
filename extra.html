@@ -18,6 +18,7 @@
 
 <body>
     <div id="div"></div>
+    <!-- <img src="https://images.thdstatic.com/productImages/e18ce2a9-7698-4454-910c-3fa39af07d15/svn/white-costway-jewelry-armoires-ghm0109wh-64_145.jpg" alt=""> -->
     <!-- <img src="https://unsplash.com/photos/bEyacwrB6Es" alt=""> -->
 </body>
 
@@ -28,14 +29,14 @@
     async function test() {
 
         try {
-            let res = await fetch("https://serpapi.com/search.json?engine=home_depot&q=bed&api_key=a370e00a1931fb44269b482d3d644d38ec3aca6aa18f546267d9e3a0c628b423")
+            let res = await fetch("https://serpapi.com/search.json?engine=home_depot&q=Floor Mirrors&api_key=4536b7d180e65a43805eb3c0653b96ff124ded4cce60ebc903cb852355e4489a")
 
 
             let data = await res.json();
 
             console.log(data.products);
 
-            append(data);
+            append(data.products);
         }
 
         catch (err) {
@@ -47,19 +48,34 @@
     }
 
 
-    
+    let div_img = document.getElementById('div');
 
-    let append = (elem) => {
-        elem.forEach((elem) => {
-            console.log("elem", elem)
-            console.log(elem.urls.small);
 
-            let div = document.getElementById('div');
-            let img = document.createElement('img');
+    const append = (element) => {
+        element.forEach((elem) => {
+            console.log("elem", elem);
 
-            img.url = "https://unsplash.com/photos/bEyacwrB6Es";
+            let p = document.createElement("p");
+            p.innerText = elem.brand;
 
-            div.append(img);
+
+            if (elem.thumbnails.length == 1) {
+                elem.thumbnails.forEach((images) => {
+
+                    images.forEach((imageSolo) => {
+                        let image = document.createElement('img');
+
+                        image.src = imageSolo;
+                        div_img.append(image);
+                    })
+
+
+                })
+
+            }
+
+
+
 
         })
 
