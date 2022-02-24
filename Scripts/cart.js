@@ -80,11 +80,17 @@ cart.forEach((cartItem_details) => {
 
     // cart total price
 
+    let quantity = localStorage.getItem("quantity_product");
+
+    let j = +quantity;
+
+
+
     let subtotal = document.getElementById("subtotal");
 
     let total_price = document.getElementById("total_price");
 
-    total = total + Math.round(price_pr * 74.7);
+    total = total + Math.round((price_pr * 74.7) * j);
 
     subtotal.innerText = `INR ${total}`;
     total_price.innerText = `INR ${total}`;
@@ -97,9 +103,7 @@ cart.forEach((cartItem_details) => {
 
 
 
-    let quantity = localStorage.getItem("quantity_product");
-
-    let j = +quantity;
+    
 
 
 

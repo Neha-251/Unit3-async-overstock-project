@@ -88,30 +88,25 @@ addToCart_btn.addEventListener("click", () => {
     console.log(cart);
 
 
-    for(let i = 0; i < cart.length; i++) {
-        if(cart[i]  == search_object) {
 
-            j++;
 
-        } else {
+    cart.push(
+        {
+            title_pr: title,
+            brand_pr: brand,
+            price_pr: price,
+            img_pr: img_src
 
-            cart.push(
-                {
-                    title_pr: title,
-                    brand_pr: brand,
-                    price_pr: price,
-                    img_pr: img_src
-        
-                }
-            );
         }
+    );
 
-    } 
 
-    
+
+
+
 
     localStorage.setItem("cart", JSON.stringify(cart));
-  
+
 
 
     localStorage.setItem("count_item", count_item);
