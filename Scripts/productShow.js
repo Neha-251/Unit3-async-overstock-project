@@ -3,9 +3,14 @@
 const getData = async ()=> {
 
     try{
-        let search_query = "chair";
+        let search_query = localStorage.getItem("search_query");
+        
 
-        let res = await fetch(`https://serpapi.com/search.json?engine=home_depot&q=${search_query}&api_key=4536b7d180e65a43805eb3c0653b96ff124ded4cce60ebc903cb852355e4489a`);
+        let category_heading = document.getElementById("category_heading");
+
+        category_heading.innerHTML = search_query;
+
+        let res = await fetch(`https://serpapi.com/search.json?engine=home_depot&q=${search_query}&api_key=3ee6a41a7f593b829fb86a69c3a14de57f8c262a7870992045dd4a58645b7025`);
 
         let res_data = await res.json();
 

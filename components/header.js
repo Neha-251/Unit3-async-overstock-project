@@ -119,7 +119,7 @@ function header() {
         <p class="ottoman">Ottomans & Poufs</p>
         <p class="accentChair">Accent Chairs</p>
         <p class="Recliner">Recliners</p>
-        <p class="accent tables">Coffee & Accent Tables</p>
+        <p class="accentTables">Coffee & Accent Tables</p>
         <p class="tvStand">TV Stands</p>
 
         <p id="brand_p" class="patio">Patio & Outdoor furniture</p>
@@ -127,14 +127,14 @@ function header() {
         <p class="chair">Sofas, Chairs & Sectionals</p>
         <p class="diningSet">Dining Sets</p>
         <p class="sideTable">Coffee & Side Tables</p>
-        <p class="chaise lounghes">Chaise Lounghes</p>
+        <p class="chaiseLounghes">Chaise Lounghes</p>
         <p class="chair">Adirondack Chairs</p>
         <p class="swing">Hammocks & Swings</p>
     </div>
     <div>
         <p id="brand_p" class="bedroom">Bedroom Furniture</p>
         <p class="bed">Beds</p>
-        <p class="bedroom set">Bedroom Sets</p>
+        <p class="bedroomSet">Bedroom Sets</p>
         <p class="headboard">Headboards</p>
         <p class="bedFrame">Bed Frames</p>
         <p class="dressers">Dressers & Chests</p>
@@ -143,9 +143,9 @@ function header() {
         <p class="mattress">Mattress</p>
         <p class="kidsBed">Kids Beds</p>
 
-        <p id="brand_p">Office Furniture</p>
+        <p id="brand_p" class="officeFurniture">Office Furniture</p>
         <p class="desk">Desks</p>
-        <p class="office chair">Office Chairs</p>
+        <p class="officeChair">Office Chairs</p>
         <p class="smallSpaceDesk">Small Space Desks</p>
         <p class="officeShelves">Office Shelves & storage</p>
         <p class="fileCabinet">File Cabinets</p>
@@ -168,7 +168,7 @@ function header() {
         <p class="barStool">Counter & Bar Stools</p>
         <p class="barTable">Bar Tables</p>
         <p class="buffets">Buffets & Sideboards</p>
-        <p class="bar">Home Bars</p>
+        <p class="homeBar">Home Bars</p>
         <p class="kitchenIsland">Kitchen Islands & carts</p>
         <p class="kitchen">Kitchen Furniture</p>
 
@@ -189,56 +189,56 @@ function header() {
 
 <div id="drop_2">
     <div>
-        <p id="brand_p">Area Rugs By Size</p>
-        <p>3'×5'</p>
-        <p>4'×6'</p>
-        <p>5'×8'</p>
-        <p>6'×9'</p>
-        <p>7'×9'</p>
-        <p>8'×10'</p>
-        <p>9'×10'</p>
-        <p>10'×14'</p>
-        <p>Runner</p>
+        <p id="brand_p" class="rug">Area Rugs By Size</p>
+        <p class="rug">3'×5'</p>
+        <p class="rug">4'×6'</p>
+        <p class="rug">5'×8'</p>
+        <p class="rug">6'×9'</p>
+        <p class="rug">7'×9'</p>
+        <p class="rug">8'×10'</p>
+        <p class="rug">9'×10'</p>
+        <p class="rug">10'×14'</p>
+        <p class="rug">Runner</p>
 
-        <p id="brand_p">Trending Rugs</p>
-        <p>Washable Rugs</p>
-        <p>Round Rugs</p>
-        <p>Shag Rugs</p>
-        <p>Wool Rugs</p>
-        <p>Jute Rugs</p>
-        <p>Cowhide Rugs</p>
+        <p id="brand_p" class="trendingRug">Trending Rugs</p>
+        <p class="washableRug">Washable Rugs</p>
+        <p class="roundRug">Round Rugs</p>
+        <p class="shagRug">Shag Rugs</p>
+        <p class="woolRug">Wool Rugs</p>
+        <p class="juteRug">Jute Rugs</p>
+        <p class="cowhideRug">Cowhide Rugs</p>
     </div>
     <div>
-        <p id="brand_p">Area Rugs By Color</p>
-        <p>Grey</p>
-        <p>Blue</p>
-        <p>Ivory</p>
-        <p>White</p>
-        <p>Black</p>
-        <p>Red</p>
-        <p>Brown</p>
-        <p>Orange</p>
-        <p>Pink</p>
+        <p id="brand_p" class="rug">Area Rugs By Color</p>
+        <p class="greyRug">Grey</p>
+        <p class="blueRug">Blue</p>
+        <p class="ivoryRug">Ivory</p>
+        <p class="whiteRug">White</p>
+        <p class="blackRug">Black</p>
+        <p class="redRug">Red</p>
+        <p class="brownRug">Brown</p>
+        <p class="orangeRug">Orange</p>
+        <p class="pinkRug">Pink</p>
 
-        <p id="brand_p">Area Rugs By Style</p>
-        <p>Modern & Contemporary</p>
-        <p>Bohemian & Eclectic</p>
-        <p>Persian</p>
-        <p>Geometric</p>
-        <p>Abstract</p>
-        <p>Solid</p>
+        <p id="brand_p" class="rug">Area Rugs By Style</p>
+        <p class="modernRug">Modern & Contemporary</p>
+        <p class="bohemianRug">Bohemian & Eclectic</p>
+        <p class="PersianRug">Persian</p>
+        <p class="geomatricRug">Geometric</p>
+        <p class="abstractRug">Abstract</p>
+        <p class="solidRug">Solid</p>
     </div>
     <div>
-        <p id="brand_p">Rugs By Type</p>
-        <p>Area Rugs</p>
-        <p>Outdoor Rugs</p>
-        <p>Rug Pads</p>
-        <p>One of a Kind Rugs</p>
-        <p>Kids & Tweens Rugs</p>
-        <p>Door Mats</p>
-        <p>Stair Treads</p>
-        <p>Kitchen Mats & Rugs</p>
-        <p>Bath & Rugs</p>
+        <p id="brand_p" class="rug">Rugs By Type</p>
+        <p class="rug">Area Rugs</p>
+        <p class="outdoorRug">Outdoor Rugs</p>
+        <p class="rugPad">Rug Pads</p>
+        <p class="rug">One of a Kind Rugs</p>
+        <p class="kidRug">Kids & Tweens Rugs</p>
+        <p class="doorMat">Door Mats</p>
+        <p class="stairTreads">Stair Treads</p>
+        <p class="kitchenMat">Kitchen Mats & Rugs</p>
+        <p class="BathRug">Bath & Rugs</p>
     </div>
     <div>
         <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/b320fbbc82c3e52fbc4d9677db915ee03aa504c1/SAFAVIEH-Madison-Diederike-Boho-Medallion-Distressed-Rug.jpg?imwidth=320"
@@ -256,61 +256,61 @@ function header() {
 
 <div id="drop_3">
     <div>
-        <p id="brand_p">Mirrors</p>
-        <p>Wall Mirrors</p>
-        <p>Bathroom Vanity Mirrors</p>
-        <p>Floor Mirrors</p>
-        <p>Full Length Mirrors</p>
-        <p>Rectangular Mirrors</p>
-        <p>Round Mirrors</p>
-        <p>Window Mirrors</p>
-        <p>Mirror Sets</p>
+        <p id="brand_p" class="mirror">Mirrors</p>
+        <p class="wallMirror">Wall Mirrors</p>
+        <p class="bathroomMirror">Bathroom Vanity Mirrors</p>
+        <p class="floorMirror">Floor Mirrors</p>
+        <p class="fullLengthMirror">Full Length Mirrors</p>
+        <p class="rectangularMirror">Rectangular Mirrors</p>
+        <p class="roundMirror">Round Mirrors</p>
+        <p class="windowMirror">Window Mirrors</p>
+        <p class="mirrorSet">Mirror Sets</p>
 
-        <p id="brand_p">Art Gallery</p>
-        <p>Gallery Wrapped Canvas</p>
-        <p>Canvas Art</p>
-        <p>Framed Prints</p>
-        <p>Unframed Prints</p>
-        <p>Metal Art</p>
-        <p>Wood wall Art</p>
-        <p>Matching Sets</p>
+        <p id="brand_p" class="art">Art Gallery</p>
+        <p class="galleryWrappedCanvas">Gallery Wrapped Canvas</p>
+        <p class="canvasArt">Canvas Art</p>
+        <p class="framedArt">Framed Prints</p>
+        <p class="unframedArt">Unframed Prints</p>
+        <p class="metalArt">Metal Art</p>
+        <p class="woodWallArt">Wood wall Art</p>
+        <p class="matchingArtSet">Matching Sets</p>
     </div>
     <div>
-        <p id="brand_p">Decorative Accessories</p>
-        <p>Indoor Fireplaces</p>
-        <p>Outdoor Decor</p>
-        <p>Accent Pieces</p>
-        <p>Silk Plants</p>
-        <p>Candles and Holders</p>
-        <p>Vases</p>
-        <p>Room Dividers</p>
-        <p>Photo Frames and Albums</p>
-        <p>Planters, Hangers & Stands</p>
+        <p id="brand_p" class="decorativeAccessories">Decorative Accessories</p>
+        <p class="indoorFireplaces">Indoor Fireplaces</p>
+        <p class="outdoorDecor">Outdoor Decor</p>
+        <p class="accentPieces">Accent Pieces</p>
+        <p class="slkPlants">Silk Plants</p>
+        <p class="candles">Candles and Holders</p>
+        <p class="vase">Vases</p>
+        <p class="roomDivider">Room Dividers</p>
+        <p class="photoFrame">Photo Frames and Albums</p>
+        <p class="planter">Planters, Hangers & Stands</p>
 
-        <p id="brand_p">Window Treatments</p>
-        <p>Curtains & Drapes</p>
-        <p>Blinds & Shades</p>
-        <p>Curtain Rods & Hardware</p>
-        <p>Sheer Curtains</p>
-        <p>Blackout Curtains</p>
-        <p>Kitchen Curtains</p>
-        <p>Valances</p>
+        <p id="brand_p" class="windowTreatments">Window Treatments</p>
+        <p class="curtain">Curtains & Drapes</p>
+        <p class="blinds">Blinds & Shades</p>
+        <p class="curtainRod">Curtain Rods & Hardware</p>
+        <p class="sheerCurtain">Sheer Curtains</p>
+        <p class="blackotCurtain">Blackout Curtains</p>
+        <p class="kitchenCurtain">Kitchen Curtains</p>
+        <p class="valances">Valances</p>
     </div>
     <div>
-        <p id="brand_p">Wall Decor</p>
-        <p>Decorative Shelves</p>
-        <p>Wall Tapestries</p>
-        <p>Clocks</p>
-        <p>Wall Decals</p>
-        <p>Acrylic Wall Art</p>
+        <p id="brand_p" class="wallDecor">Wall Decor</p>
+        <p class="decorativeShelves">Decorative Shelves</p>
+        <p class="wallTapestries">Wall Tapestries</p>
+        <p class="clock">Clocks</p>
+        <p class="wallClocks">Wall Decals</p>
+        <p class="acrylicWallArt">Acrylic Wall Art</p>
 
-        <p id="brand_p">Throw Pillows</p>
-        <p>Accent Pillows</p>
-        <p>Outdoor Pillows</p>
-        <p>Floor Pillows</p>
-        <p>Poufs</p>
-        <p>Pillow Covers</p>
-        <p>Bed Rest</p>
+        <p id="brand_p" class="throwPillow">Throw Pillows</p>
+        <p class="accentPillow">Accent Pillows</p>
+        <p class="outdoorPiloow">Outdoor Pillows</p>
+        <p class="floorPillow">Floor Pillows</p>
+        <p class="pouf">Poufs</p>
+        <p class="pillowCover">Pillow Covers</p>
+        <p class="bedRest">Bed Rest</p>
     </div>
     <div>
         <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/d28cbaf23c439090fa43c0cf806ac147b7e1040f/Arched-Dressing-Mirror-Full-length-Floor-Mirror-with-Standing.jpg"
@@ -328,57 +328,54 @@ function header() {
 
 <div id="drop_4">
     <div>
-        <p id="brand_p">Bedding</p>
-        <p>Comforter Sets</p>
-        <p>Duvet Covers</p>
-        <p>Bed in a Bag</p>
-        <p>Quilts & Coverlets</p>
-        <p>Blankets & Throws</p>
-
-        <p id="brand_p">Bath & Towels</p>
-        <p>Shower Curtains</p>
-        <p>Towels</p>
-        <p>Bath & Mats</p>
-        <p>Bath Robes</p>
-        <p>Bath Accessories</p>
-        <p>Bath Robes</p>
-        <p>Kids Bath</p>
+        <p id="brand_p" class="bedding">Bedding</p>
+        <p class="comforterSet">Comforter Sets</p>
+        <p class="duvetCover">Duvet Covers</p>
+        <p class="bed">Bed in a Bag</p>
+        <p class="quilt">Quilts & Coverlets</p>
+        <p class="blanket">Blankets & Throws</p>
+        <p class="showerCurtain">Shower Curtains</p>
+        <p class="towel">Towels</p>
+        <p class="bathroomMat">Bath & Mats</p>
+        <p class="bathRobe">Bath Robes</p>
+        <p class="bathAccessories">Bath Accessories</p>
+        <p class="bathRobe">Bath Robes</p>
+        <p class="bathRobe"Kids Bath</p>
     </div>
     <div>
-        <p id="brand_p">Bedding Basics</p>
-        <p>Sheets & Pillowcases</p>
-        <p>Mattress & Toppers</p>
-        <p>Comforters & Duvet Inserts</p>
-        <p>Pillows</p>
-        <p>Cotton Bedding</p>
-
-        <p id="brand_p">Kids Bedding</p>
-        <p>Kids Sheets</p>
-        <p>Kids Comforter Sets</p>
-        <p>Kids Bed in a Bag</p>
-        <p>Kids Quilts</p>
-        <p>Kids Bed Tents & Canopies</p>
-        <p>Kids Mattress</p>
+        <p id="brand_p" class="beddingBasics">Bedding Basics</p>
+        <p class="sheets">Sheets & Pillowcases</p>
+        <p class="mattress">Mattress & Toppers</p>
+        <p class="comforter">Comforters & Duvet Inserts</p>
+        <p class="pillow">Pillows</p>
+        <p class="cottonBedding">Cotton Bedding</p>
+        <p id="brand_p" class="kidsBedding">Kids Bedding</p>
+        <p class="kidsSheet">Kids Sheets</p>
+        <p class="kidComforter">Kids Comforter Sets</p>
+        <p class="kidBed">Kids Bed in a Bag</p>
+        <p class="kidQuilt">Kids Quilts</p>
+        <p class="bed">Kids Bed Tents & Canopies</p>
+        <p class="kidMattress">Kids Mattress</p>
     </div>
     <div>
-        <p id="brand_p">Mattress</p>
-        <p>Twin</p>
-        <p>Twin XL</p>
-        <p>Full</p>
-        <p>Queen</p>
-        <p>King</p>
-        <p>California King</p>
-        <p>Air Mattress</p>
-        <p>Mattress in a Box</p>
+        <p id="brand_p" class="mattress">Mattress</p>
+        <p class="twinMattress">Twin</p>
+        <p class="twinMattress">Twin XL</p>
+        <p class="fullMattress">Full</p>
+        <p class="queenMattress">Queen</p>
+        <p class="kingMattress">King</p>
+        <p class="twinMattress">California King</p>
+        <p class="airMattress">Air Mattress</p>
+        <pclass="mattress">Mattress in a Box</p>
 
-        <p id="brand_p">Bathroom Furniture</p>
-        <p>Bathroom Vanities</p>
-        <p>Bathroom Vanity Mirrors</p>
-        <p>Bathroom Sinks</p>
-        <p>Bathroom Faucets</p>
-        <p>Bathroom Cabinets</p>
-        <p>Tubs</p>
-        <p>Showers</p>
+        <p id="brand_p" class="bathroomFurniture">Bathroom Furniture</p>
+        <p class="bathroomVanities">Bathroom Vanities</p>
+        <p class="bathroomMirror">Bathroom Vanity Mirrors</p>
+        <p class="bathroomSink">Bathroom Sinks</p>
+        <p class="bathroomFaucet">Bathroom Faucets</p>
+        <p class="bathroomCabinet">Bathroom Cabinets</p>
+        <p class="tub">Tubs</p>
+        <p class="shower">Showers</p>
     </div>
     <div>
         <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/aae7298c6dad6ee752e90b9ada8625407c000547/Intelligent-Design-Leena-Shaggy-Faux-Fur-Comforter-Set.jpg"
@@ -396,57 +393,56 @@ function header() {
 
 <div id="drop_5">
     <div>
-        <p id="brand_p">Kitchen</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
+        <p id="brand_p" class="kitchen">Kitchen</p>
+        <p class="rangeAndOven">ranges & Ovens</p>
+        <p class="refrigerators">Refrigerators</p>
+        <p class="kitchenFaucets">Kitchen Faucets</p>
+        <p class="rangeAndOven">ranges & Ovens</p>
+        <p class="refrigerators">Refrigerators</p>
+        <p class="kitchenFaucets">Kitchen Faucets</p>
+        <p class="rangeAndOven">ranges & Ovens</p>
+        <p class="refrigerators">Refrigerators</p>
+        <p class="kitchenFaucets">Kitchen Faucets</p>
 
-        <p id="brand_p">Flooring & Wall</p>
-        <p>Tile</p>
-        <p>Laminate Flooring</p>
-        <p>Vinyl Flooring</p>
-        <p>Wallpaper</p>
-        <p>Laminate Flooring</p>
-        <p>Vinyl Flooring</p>
-        <p>Wallpaper</p>
+        <p id="brand_p" class="flooring">Flooring & Wall</p>
+        <p class="tile">Tile</p>
+        <p class="laminateFlooring">Laminate Flooring</p>
+        <p class="vinylFlooring">Vinyl Flooring</p>
+        <p class="wallpaper">Wallpaper</p>
+        <p class="laminateFlooring">Laminate Flooring</p>
+        <p class="vinylFlooring">Vinyl Flooring</p>
+        <p class="wallpaper">Wallpaper</p>
     </div>
     <div>
-        <p id="brand_p">Bathroom</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
+        <p id="brand_p" class="bathroom">Bathroom</p>
+        <p class="bathroomVanities">Bathroom Vanities</p>
+        <p class="bathroomMirror">Bathroom Vanity Mirrors</p>
+        <p class="bathroomSink">Bathroom Sinks</p>
+        <p class="bathroomFaucet">Bathroom Faucets</p>
+        <p class="bathroomCabinet">Bathroom Cabinets</p>
+        <p class="tub">Tubs</p>
+        <p class="shower">Showers</p>
 
-        <p id="brand_p">Home Essentials</p>
-        <p>Tile</p>
-        <p>Laminate Flooring</p>
-        <p>Vinyl Flooring</p>
-        <p>Wallpaper</p>
-        <p>Laminate Flooring</p>
+        <p id="brand_p" class="bathroom">Bathroom</p>
+        <p class="homeEssential">Home Essentials</p>
+        <p class="vacuum">Vacuums & Floorcare</p>
+        <p class="heating">Heating & Cooling</p>
+        <p class="airQuality">Air Quality</p>
+        <p class="sewingMachine">Sewing Machines</p>
+        <p class="craftMachine">Craft Machines</p>
 
     </div>
     <div>
-        <p id="brand_p">Storage & Organization</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
-        <p>ranges & Ovens</p>
-        <p>Refrigerators</p>
-        <p>Kitchen Faucets</p>
+        <p id="brand_p" class="storage">Storage & Organization</p>
+        <p class="outdoorStorage">Outdoor Storage</p>
+        <p class="garageStorage">Garage Storage</p>
+        <p class="decorativeStorage">Decorative Storage</p>
+        <p class="closetStorage">Closet Organizers</p>
+        <p class="kitchenPantry">Kitchen & Pantry</p>
+        <p class="cabinets">Cabinets</p>
+        <p class="furnitureStorage">Furniture Storage</p>
+        <p class="safes">Safes</p>
+        <p class="laundry">Laundry Room</p>
 
 
     </div>

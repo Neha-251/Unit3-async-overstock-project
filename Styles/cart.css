@@ -1,0 +1,223 @@
+
+
+#heading_div{
+    height:50px;
+    width:80%;
+    text-align: left;
+    color:darkslategray;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_containerDiv{
+    width:80%;
+    display:flex;
+    gap:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#showProduct_div{
+    width:70%;
+    height:auto;
+}
+
+#title_p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#brand_p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#price_p{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#main_img{
+    height:300px;
+}
+
+#mainDiv{
+    display: flex;
+    gap:20px;
+    height:auto;
+    border: 1px solid darkslategray;
+    color: rgb(48, 49, 49);
+}
+
+#minus_btn{
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 18px;
+    cursor:pointer;
+    color: rgb(48, 48, 48);
+    margin-right: 15px;
+
+}
+
+
+#plus_btn{
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 18px;
+    cursor:pointer;
+    color: rgb(48, 48, 48);
+    margin-left: 15px;
+}
+
+
+#quantity_text{
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+}
+
+
+
+#quantity_number{
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+}
+
+
+#quantity_div{
+    height:28px;
+    width:180px;
+    display:flex;
+    border:1px solid rgb(48, 48, 48);
+}
+
+#quantity_div > p{
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+
+#remove_btn{
+    height:20px;
+    width:80px;
+    background-color: transparent;
+    border:1px solid rgb(48, 48, 48);
+    margin-top: 50px;
+}
+
+#rightSide_billDiv{
+    height:220px;
+    border:1px solid rgb(48, 48, 48);
+    width:25%;
+    padding:20px;
+}
+
+#rightSide_billDiv > div{
+    display:flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+#rightSide_billDiv > div > p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+#rightSide_billDiv > div > p:nth-child(1){
+    margin-left: 0px;
+    margin-right: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+#rightSide_billDiv > div > p:nth-child(2){
+   
+    margin-bottom: 5px;
+   
+}
+
+#subtotal{
+    margin-left: 70px;
+}
+
+#total_price_text{
+    font-size: 20px;
+}
+
+#total_price{
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+#checkout_btn{
+    height:40px;
+    width:100%;
+    background-color: rgb(19, 19, 19);
+    margin-top: 20px;
+    border-radius: 4px;
+    padding-top: 5px;
+}
+
+.fa-lock{
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 80px;
+
+}
+
+
+
+
+#checkout_btn > p{
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+
+    letter-spacing: 0.5px;
+}
+
+#coupon_inp{
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-right: auto;
+    height:15px;
+    width:117px;
+    border: none;
+    border-bottom: 1px solid rgb(19, 19, 19);
+    outline: none;
+}
+
+#total_savings{
+    color:red;
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+#discount_coupon{
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: rgb(255, 42, 166);
+}
+
+#right_mark{
+    border: 1px solid rgb(44, 44, 44);
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
