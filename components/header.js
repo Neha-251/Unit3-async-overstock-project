@@ -36,7 +36,7 @@ function header() {
             <p id="nav_text">Lists</p>
         </div>
         <div id="cart_div">
-            
+            <div id="item_count"></div>
             <i class="fa-solid fa-cart-shopping"></i>
           
             <p id="nav_text">Cart</p>

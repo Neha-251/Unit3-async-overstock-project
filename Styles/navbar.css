@@ -947,7 +947,10 @@ body{
     color: rgb(53, 53, 53);
 }
 
-
+#item_count{
+    margin-bottom: -18px;
+    font-weight: 600;
+}
 
 #search_imgDiv{
     display: grid;

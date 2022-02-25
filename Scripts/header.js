@@ -4,7 +4,7 @@ let header_div = document.getElementById("header");
 header_div.innerHTML = header();
 
 
-let cartshopping = querySelector(".fa-cart-shopping");
+let cartshopping = document.querySelector("#cart_div");
 
 cartshopping.addEventListener("click", () => {
     let signup_flag = localStorage.getItem("signup_flag");
@@ -17,7 +17,11 @@ cartshopping.addEventListener("click", () => {
     }
 })
 
+let item_number = localStorage.getItem("count_item");
 
+let item_count = document.getElementById("item_count");
+
+item_count.innerHTML = item_number;
 
 
 
@@ -648,6 +652,12 @@ drop_13.addEventListener("mouseleave", () => {
 
 //
 //
+
+
+
+
+
+
 
 let livingRoom = document.querySelector(".livingRoom");
 

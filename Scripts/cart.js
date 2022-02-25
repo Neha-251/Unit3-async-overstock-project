@@ -82,7 +82,8 @@ cart.forEach((cartItem_details) => {
 
     let quantity = localStorage.getItem("quantity_product");
 
-    let j = +quantity;
+    let {quantity_pr} = cartItem_details;
+    let j = +quantity_pr;
 
 
 
@@ -268,4 +269,11 @@ right_mark.addEventListener("click", () => {
         console.log(total);
 
     }
+})
+
+
+let checkout_btn = document.getElementById("checkout_btn");
+
+checkout_btn.addEventListener("click", ()=> {
+    alert("Order Placed Successfully");
 })

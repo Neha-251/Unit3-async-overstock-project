@@ -97,8 +97,8 @@ addToCart_btn.addEventListener("click", () => {
             title_pr: title,
             brand_pr: brand,
             price_pr: price,
-            img_pr: img_src
-
+            img_pr: img_src,
+            quantity_pr: j
         }
     );
 
@@ -109,9 +109,10 @@ addToCart_btn.addEventListener("click", () => {
 
     localStorage.setItem("cart", JSON.stringify(cart));
 
-
+    item_count.innerHTML = count_item;
 
     localStorage.setItem("count_item", count_item);
+
     localStorage.setItem("quantity_product", j);
   //  window.location.href = "cart.html";
 })
