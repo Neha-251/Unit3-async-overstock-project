@@ -1,1 +1,2 @@
 # Unit3-async-overstock-project
+Readers are welcome to this blog where I am going to share my inspiring journey while building the clone of “Overstock.com”. Firstly, I am very grateful to Masai School for giving me this awesome opportunity to learn and grow up as a Web-developer. As I am repeating this unit, I had to do this project individually. First let me introduce the website. Overstock is a beautiful website where you will find every type of furniture including hardware items and jewelry. I have completed this project in 5 days.
