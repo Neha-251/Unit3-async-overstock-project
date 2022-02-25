@@ -11,22 +11,24 @@ function header() {
     <nav id="nav_2">
     <div id="overstock_logo">
             <img src="https://media.glassdoor.com/sqll/14907/overstock-com-squarelogo-1529535998697.png" alt="">
-            <a href="index.html">
             
+            <a href="index.html">
             <p>OVERSTOCK</p>
              </a>
 
         </div>
         <div id="search_div">
             <input type="text" id="search_inp" placeholder="Search">
-            <div><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div id="search_btn"><i class="fa-solid fa-magnifying-glass"></i></div>
         </div>
         <div id="deals_div">
             <i class="fa-brands fa-ideal"></i>
             <p id="nav_text">Deals</p>
         </div>
         <div id="account_div">
+            <a href="signup.html">
             <i class="fa-regular fa-user"></i>
+            </a>
             <p id="nav_text">Account</p>
         </div>
         <div id="lists_div">
@@ -34,7 +36,9 @@ function header() {
             <p id="nav_text">Lists</p>
         </div>
         <div id="cart_div">
+            
             <i class="fa-solid fa-cart-shopping"></i>
+          
             <p id="nav_text">Cart</p>
         </div>
     </nav>
@@ -1035,7 +1039,23 @@ function header() {
     </div>
 </div>
 <div id="header_space"></div>
+
+<div id="search_results_Div">
+
+    <div id="heading_searchDiv">
+        <p id="search_heading">Popular Searches</p>
+
+        <div id="text_resultDiv"></div>
+    </div>
+
+    <div id="search_imgDiv">
+    </div>
+
+</div>
+
 `;
 }
 
 export default header;
+
+

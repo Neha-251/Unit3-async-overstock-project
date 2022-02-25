@@ -27,11 +27,13 @@ price_p.innerText = `Sale INR ${Math.round(price * 74.7)}`;
 
 let img_src = "";
 let i = 0;
+
+
 search_object.thumbnails.forEach((images) => {
 
     images.forEach((imageSolo) => {
 
-        if (i == 5) {
+        if (i == 3) {
             let image = document.getElementById('main_img');
 
             image.src = imageSolo;
@@ -111,7 +113,7 @@ addToCart_btn.addEventListener("click", () => {
 
     localStorage.setItem("count_item", count_item);
     localStorage.setItem("quantity_product", j);
-    window.location.href = "cart.html";
+  //  window.location.href = "cart.html";
 })
 
 

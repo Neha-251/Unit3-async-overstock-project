@@ -107,9 +107,10 @@
 
 #remove_btn{
     height:20px;
-    width:80px;
+    width:70px;
     background-color: transparent;
-    border:1px solid rgb(48, 48, 48);
+    border: none;
+    border-bottom:1px solid rgb(48, 48, 48);
     margin-top: 50px;
 }
 

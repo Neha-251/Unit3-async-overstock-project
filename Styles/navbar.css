@@ -156,6 +156,16 @@ body{
 
 }
 
+#cart_div > a{
+    margin-top: 10px;
+    color:black;
+}
+
+#account_div > a{
+    margin-top: 10px;
+    color:black;
+}
+
 .fa-magnifying-glass{
     margin-top: 10px;
     color:whitesmoke;
@@ -899,3 +909,85 @@ body{
 }
 
 
+
+
+#search_results_Div{
+    display: flex;
+    height:470px;
+    width:800px;
+    background-color: rgb(245,245,245);
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 270px;
+    visibility: hidden;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+#heading_searchDiv{
+    width:250px;
+    padding:20px;
+    
+    border-right:1px solid silver;
+}
+
+#text_resultDiv{
+    height:320px;
+    width:100%;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+
+#search_heading{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+}
+
+
+
+#search_imgDiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    overflow: hidden;
+    grid-gap:21px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+#main_Div{
+    height:130px;
+    width:100px;
+    border: 1px solid silver;
+}
+
+#main_title{
+    font-size: 12px;
+}
+#main_price{
+    font-size: 13px;
+    color: red;
+    font-weight: 600;
+    margin: 2px auto;
+
+}
+
+#div_rating{
+    display: flex;
+    gap:5px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+
+#mainDiv_image{
+    height:90px;
+    width:100px;
+}

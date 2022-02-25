@@ -4,6 +4,351 @@ let header_div = document.getElementById("header");
 header_div.innerHTML = header();
 
 
+let cartshopping = querySelector(".fa-cart-shopping");
+
+cartshopping.addEventListener("click", () => {
+    let signup_flag = localStorage.getItem("signup_flag");
+
+    if(signup_flag == "successfull"){
+        window.location.href = "cart.html";
+    } else {
+        window.location.href = "signup.html";
+
+    }
+})
+
+
+
+
+
+
+// Search bar related functions
+
+let search_inp = document.getElementById("search_inp").value;
+
+let searchbar = document.getElementById("search_inp");
+
+let search_btn = document.getElementById("search_btn");
+
+let search_resultsDiv = document.getElementById("search_results_Div");
+
+let search_heading = document.getElementById("search_heading");
+
+let text_resultDiv = document.getElementById("text_resultDiv");
+
+let search_imgDiv = document.getElementById("search_imgDiv");
+
+
+search_resultsDiv.addEventListener("mouseleave", ()=> {
+    search_resultsDiv.style.visibility = "hidden";
+
+})
+
+
+searchbar.addEventListener("click", async () => {
+
+    try {
+        let search_resultsDiv = document.getElementById("search_results_Div");
+
+        let respon = await fetch(`https://serpapi.com/search.json?engine=home_depot&q=chair&api_key=3ee6a41a7f593b829fb86a69c3a14de57f8c262a7870992045dd4a58645b7025`);
+
+        let respon_data = await respon.json();
+        let search_data = respon_data.products;
+
+
+        console.log('search_data', search_data);
+
+        search_resultsDiv.style.visibility = "visible";
+
+        appendSearchData(search_data);
+
+    }
+    catch (error) {
+        console.log('error', error)
+
+    }
+
+})
+
+
+searchbar.addEventListener("input", async () => {
+
+    try {
+        let search_heading = document.getElementById("search_heading");
+        let search_inp = document.getElementById("search_inp").value;
+
+
+        let respon = await fetch(`https://serpapi.com/search.json?engine=home_depot&q=${search_inp}&api_key=3ee6a41a7f593b829fb86a69c3a14de57f8c262a7870992045dd4a58645b7025`);
+
+        let respon_data = await respon.json();
+        let search_data = respon_data.products;
+
+        // search_heading.innerText = null;
+        // search_heading.innerText = search_inp;
+        console.log('search_data', search_data);
+
+        search_resultsDiv.style.visibility = "visible";
+        appendSearchData_inp(search_data);
+
+    }
+    catch (error) {
+        console.log('error', error)
+
+    }
+
+})
+
+
+
+searchbar.addEventListener("keyup", (e) => {
+
+
+    if (e.keyCode === 13) {
+
+        let search_inp = document.getElementById("search_inp").value;
+
+        localStorage.setItem("search_query", search_inp);
+        window.location.href = "productShow.html";
+
+    }
+});
+
+
+
+
+
+search_btn.addEventListener("click", async () => {
+
+    // try {
+        let search_inp = document.getElementById("search_inp").value;
+
+
+        // let respon = await fetch(`https://serpapi.com/search.json?engine=home_depot&q=${search_inp}&api_key=3ee6a41a7f593b829fb86a69c3a14de57f8c262a7870992045dd4a58645b7025`);
+
+        // let respon_data = await respon.json();
+        // let search_data = respon_data.products;
+
+        // search_heading.innerText = search_inp;
+
+        // console.log('search_data', search_data)
+
+        // appendSearchData(search_data);
+
+
+        localStorage.setItem("search_query", search_inp);
+        window.location.href = "productShow.html";
+
+
+    // }
+    // catch (error) {
+    //     console.log('error', error)
+
+    // }
+
+})
+
+// search_resultsDiv.innerHTML = null;
+
+
+
+
+
+
+const appendSearchData = (search_data) => {
+
+    let text_resultDiv = document.getElementById("text_resultDiv");
+
+    let search_imgDiv = document.getElementById("search_imgDiv");
+    text_resultDiv.innerHTML = null;
+    search_imgDiv.innerHTML = null;
+
+
+
+
+    search_data.forEach((elem) => {
+
+        let { rating } = elem;
+        let { price } = elem;
+        let { title } = elem;
+        let { reviews } = elem;
+
+
+        let mainDiv = document.createElement("div");
+        mainDiv.setAttribute("id", "main_Div");
+
+
+
+        let i = 0;
+        elem.thumbnails.forEach((images) => {
+
+            images.forEach((imageSolo) => {
+
+                if (i == 3) {
+                    let image = document.createElement('img');
+                    image.setAttribute("id", "mainDiv_image");
+
+                    image.src = imageSolo;
+                    mainDiv.append(image);
+                }
+                i++;
+            })
+        })
+
+
+
+        let p_price = document.createElement("p");
+        p_price.setAttribute("id", "main_price");
+        p_price.innerText = `Sale INR ${Math.round(price * 74.7)}`;
+
+
+        let p_title = document.createElement("p");
+        p_title.innerText = title;
+        p_title.setAttribute("id", "main_title");
+
+        let div_rating = document.createElement("div");
+        div_rating.setAttribute("id", "div_rating");
+
+
+        if (rating > 4) {
+            let img_rating = document.createElement("img");
+            img_rating.style.height = "13px";
+            img_rating.style.width = "50px";
+            img_rating.style.marginBottom = "0px";
+
+            img_rating.src = "https://previews.123rf.com/images/barks/barks1712/barks171200372/92093475-icona-a-cinque-stelle-4-5-.jpg";
+
+            let p_review = document.createElement("p");
+            p_review.innerText = `(${reviews})`;
+            p_review.style.marginTop = "0px";
+            p_review.style.marginBottom = "0px";
+
+
+
+            div_rating.append(img_rating, p_review);
+            mainDiv.append(div_rating);
+        }
+
+        let text_resultDiv = document.getElementById("text_resultDiv");
+
+        let search_imgDiv = document.getElementById("search_imgDiv");
+
+        mainDiv.append(p_price);
+
+        search_imgDiv.append(mainDiv);
+
+
+        text_resultDiv.append(p_title);
+
+
+        mainDiv.addEventListener("click", () => {
+            localStorage.setItem("search_object", JSON.stringify(elem));
+            window.location.href = "productDetails.html";
+        })
+
+
+
+    })
+}
+
+const appendSearchData_inp = (search_data) => {
+
+    let text_resultDiv = document.getElementById("text_resultDiv");
+
+    let search_imgDiv = document.getElementById("search_imgDiv");
+    search_imgDiv.innerHTML = null;
+    text_resultDiv.innerHTML = null;
+
+
+    search_data.forEach((elem) => {
+        // let text_resultDiv = document.getElementById("text_resultDiv");
+
+        // let search_imgDiv = document.getElementById("search_imgDiv");
+
+        let { rating } = elem;
+        let { price } = elem;
+        let { title } = elem;
+        let { reviews } = elem;
+
+
+        let mainDiv = document.createElement("div");
+        mainDiv.setAttribute("id", "mainDiv");
+
+        let i = 0;
+        elem.thumbnails.forEach((images) => {
+
+            images.forEach((imageSolo) => {
+
+                if (i == 3) {
+                    let image = document.createElement('img');
+                    image.setAttribute("id", "mainDiv_image");
+
+                    image.src = imageSolo;
+                    mainDiv.append(image);
+                }
+                i++;
+            })
+        })
+
+
+
+        let p_price = document.createElement("p");
+        p_price.setAttribute("id", "main_price");
+        p_price.innerText = `Sale INR ${Math.round(price * 74.7)}`;
+
+
+        let p_title = document.createElement("p");
+        p_title.innerText = title;
+        p_title.setAttribute("id", "main_title");
+
+        let div_rating = document.createElement("div");
+        div_rating.setAttribute("id", "div_rating");
+
+
+        if (rating > 4) {
+            let img_rating = document.createElement("img");
+            img_rating.style.height = "13px";
+            img_rating.style.width = "50px";
+            img_rating.style.marginBottom = "0px";
+
+            img_rating.src = "https://previews.123rf.com/images/barks/barks1712/barks171200372/92093475-icona-a-cinque-stelle-4-5-.jpg";
+
+            let p_review = document.createElement("p");
+            p_review.innerText = `(${reviews})`;
+            p_review.style.marginTop = "0px";
+            p_review.style.marginBottom = "0px";
+
+
+
+            div_rating.append(img_rating, p_review);
+            mainDiv.append(div_rating);
+        }
+
+        let text_resultDiv = document.getElementById("text_resultDiv");
+
+        let search_imgDiv = document.getElementById("search_imgDiv");
+
+        mainDiv.append(p_price);
+
+        search_imgDiv.append(mainDiv);
+
+
+        text_resultDiv.append(p_title);
+
+
+        mainDiv.addEventListener("click", () => {
+            localStorage.setItem("search_object", JSON.stringify(elem));
+            window.location.href = "productDetails.html";
+        })
+
+
+
+    })
+}
+
+
+
+// Search bar related functions
+
 
 
 

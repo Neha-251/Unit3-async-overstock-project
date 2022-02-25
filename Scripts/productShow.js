@@ -45,7 +45,7 @@ const appendData = (data) => {
 
 
         let mainDiv = document.createElement("div");
-        mainDiv.setAttribute("id", "mainDiv");
+        mainDiv.setAttribute("id", "main_Div");
 
 
         

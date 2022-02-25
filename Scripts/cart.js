@@ -176,7 +176,12 @@ cart.forEach((cartItem_details) => {
         mainDiv.style.border = "none";
         count_item = count_item - 1;
         no_items.innerText = count_item;
-        total = total - Math.round(price_pr * 74.7);
+
+        let quantity = localStorage.getItem("quantity_product");
+
+        let j = +quantity;
+
+        total = total - Math.round((price_pr * 74.7) * j);
 
         subtotal.innerText = `INR ${total}`;
         total_price.innerText = `INR ${total}`;
